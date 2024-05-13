@@ -30,7 +30,7 @@ policy_packages = [
 
 # セッションステートにregistered_policiesを初期化
 if 'registered_policies' not in st.session_state:
-    st.session_state.registered_policies = []
+    st.session_state.registered_policies = ["商品特徴理解促進"]
 
 # 施策登録ページ
 def policy_registration():
